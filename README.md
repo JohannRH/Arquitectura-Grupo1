@@ -4,7 +4,7 @@ Este repositorio contiene ejemplos prácticos en Python diseñados para ilustrar
 
 El objetivo es demostrar cómo la refactorización y el uso de patrones de diseño pueden transformar código monolítico y difícil de mantener en sistemas modulares, testables y extensibles.
 
-## 📂 Contenido del Repositorio
+##  Contenido del Repositorio
 
 El código fuente se encuentra en el directorio `DRY&LC` y consta de tres ejemplos clave:
 
@@ -25,25 +25,10 @@ Ilustra cómo evitar la duplicación de lógica de validación.
 Un ejemplo claro del principio de Inversión de Dependencias (parte de SOLID) para lograr bajo acoplamiento.
 - Muestra la evolución desde una clase `Pedido` que instancia directamente sus dependencias (`PagoTarjeta`, `NotificacionEmail`), hacia una que depende de abstracciones (`MetodoPago`, `ServicioNotificacion`). Esto permite cambiar implementaciones (ej. enviar SMS en lugar de Email) sin modificar la clase principal.
 
-## 🚀 Cómo Ejecutar
 
-No se requieren librerías externas. Todos los ejemplos funcionan con una instalación estándar de Python 3.x.
-
-```bash
-# Ejecutar el ejemplo de refactorización de órdenes
-python "DRY&LC/LowCouplingConDRY.py"
-
-# Ejecutar el ejemplo de DRY
-python "DRY&LC/dry.py"
-
-# Ejecutar el ejemplo de Low Coupling
-python "DRY&LC/low.py"
-```
-
-## 🛠 Requisitos
+##  Requisitos
 
 *   Python 3.6 o superior.
-*   Librerías estándar: `sqlite3`, `abc`.
 
 ---
 **Curso:** Arquitectura de Software - Grupo 1  
