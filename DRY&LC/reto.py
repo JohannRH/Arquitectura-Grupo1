@@ -21,7 +21,6 @@ class SalesManager:
         conn.commit()
         conn.close()
 
-        # Notificación rígida (Feature Envy)
         print(f"ENVIANDO EMAIL A {customer_email}: Gracias por comprar {item_name}. Total: ${total}")
 
     def process_store_sale(self, item_name, price, quantity):
